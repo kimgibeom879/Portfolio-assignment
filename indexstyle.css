@@ -5,12 +5,18 @@ body{
 div {
   width: 70%;
   padding: 50px;
-  border: 5px solid darkgray;
+  border: 5px solid rgba(220,226,226,255);
   border-radius: 15px;
-  background-color: peachpuff;
+  background-color: #f9db9d;
   margin: 0;
 }
 
 p{
-font-family: verdana;
+  font-family: verdana;
+  color: #ded7cf
+;
+}
+p.port{
+  font-size: 36px;
+  font-weight: bold;
 }
