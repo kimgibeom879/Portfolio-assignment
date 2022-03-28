@@ -1,0 +1,32 @@
+body{
+  background-color:#f9db9d;
+}
+
+div.abouts {
+  width: 70%;
+  padding: 50px;
+  border: 5px solid rgba(220,226,226,255);
+  border-radius: 15px;
+  background-color: lightgray;
+  margin: 10px;
+}
+
+div.works {
+  width: 70%;
+  padding: 50px;
+  border: 5px solid rgba(220,226,226,255);
+  border-radius: 15px;
+  background-color: lightgray;
+  margin: 10px;
+  text-align: right;
+}
+p{
+  font-family: verdana;
+  color: white;
+  font-size:18px;
+}
+h3{
+  font-family: verdana;
+  color: white;
+  font-size: 36px;
+}
