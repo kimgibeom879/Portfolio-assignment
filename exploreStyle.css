@@ -3,7 +3,6 @@ body{
 }
 
 div.abouts {
-  width: 70%;
   padding: 50px;
   border: 5px solid rgba(220,226,226,255);
   border-radius: 15px;
@@ -12,7 +11,6 @@ div.abouts {
 }
 
 div.works {
-  width: 70%;
   padding: 50px;
   border: 5px solid rgba(220,226,226,255);
   border-radius: 15px;

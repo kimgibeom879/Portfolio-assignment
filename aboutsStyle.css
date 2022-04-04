@@ -3,7 +3,6 @@ body{
 }
 
 div.abouts {
-  width: 70%;
   padding: 50px;
   border: 5px solid rgba(220,226,226,255);
   border-radius: 15px;
@@ -11,11 +10,30 @@ div.abouts {
   margin: 10px;
 }
 
-div.contacts {
-  width: 70%;
-  padding: 50px;
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width:100%;
+  height:75px;
+  background:rgba(220,226,226,255);
+  padding: 10px 20px ;
+}
+
+footer div.contacts {
+  width:90%;
+  height: 65px;
+  padding: 5px;
   border: 5px solid rgba(220,226,226,255);
   border-radius: 15px;
   background-color: lightgray;
-  margin: 10px;
+  display: -webkit-flex;
+  display: flex;
+}
+footer div.mailbox{
+  text-align: right;
+  right:0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
